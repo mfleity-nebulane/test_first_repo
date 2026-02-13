@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Welcome — Natural Green</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main class="hero">
+      <header class="site-header">
+        <div class="logo">Leafly</div>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero-content">
+        <h1>Welcome to a Natural Green Experience</h1>
+        <p class="lead">A calm, nature-inspired welcome page crafted with soft greens, warm neutrals, and subtle textures.</p>
+        <div class="actions">
+          <a class="btn primary" href="#get-started">Get Started</a>
+          <a class="btn ghost" href="#about">Learn More</a>
+        </div>
+      </section>
+
+      <footer class="hero-footer">© <span id="year"></span> Leafly — Breathe easy.</footer>
+    </main>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
